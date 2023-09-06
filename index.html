@@ -22,6 +22,62 @@
                                         <div class="card w-96 bg-base-100 shadow-xl">
                                                   <figure><img src="/images/triangle.png" alt="Shoes" /></figure>
                                                   <div class="card-body">
+                                                            <h2 class="card-title">Triangle</h2>
+                                                            <p>Area(A) = 0.5 x b x h</p>
+                                                            <p>
+                                                                      <!-- triangle base -->
+                                                                      <input type="text" placeholder="base"
+                                                                                class="border text-xl w-24 px-2 bg-gray-200"
+                                                                                name="" id="triangle-base">
+                                                                      <span class="ml-2">cm</span>
+                                                                      <!-- triangle height -->
+                                                                      <input type="text" placeholder="height"
+                                                                                class="ml-4 text-xl border w-24 px-2 bg-gray-200"
+                                                                                name="" id="triangle-height">
+                                                                      <span class="ml-2">cm</span>
+                                                            </p>
+                                                            <p class="text-2xl">Area: <span class="bold"
+                                                                                id="triangle-area">0</span>
+                                                                      cm<sup>2</sup></p>
+
+                                                            <div class="card-actions w-full">
+                                                                      <button onclick="calculateTriangleArea()"
+                                                                                class="btn w-full btn-primary">Calculate</button>
+                                                            </div>
+                                                  </div>
+                                        </div>
+                                        <!-- Rectangle card -->
+                                        <div class="card w-96 bg-base-100 shadow-xl">
+                                                  <figure><img src="/images/rectangle.png" alt="Shoes" /></figure>
+                                                  <div class="card-body">
+                                                            <h2 class="card-title">Rectangle</h2>
+                                                            <p>Area(A) = w x l</p>
+                                                            <p>
+                                                                      <!-- rectangle width -->
+                                                                      <input type="text" placeholder="width"
+                                                                                class="border text-xl w-24 px-2 bg-gray-200"
+                                                                                name="" id="rectangle-width">
+                                                                      <span class="ml-2">cm</span>
+                                                                      <!-- rectangle length-->
+                                                                      <input type="text" placeholder="length"
+                                                                                class="ml-4 text-xl border w-24 px-2 bg-gray-200"
+                                                                                name="" id="rectangle-length">
+                                                                      <span class="ml-2">cm</span>
+                                                            </p>
+                                                            <p class="text-2xl">Area: <span class="bold"
+                                                                                id="rectangle-area">0</span>
+                                                                      cm<sup>2</sup></p>
+
+                                                            <div class="card-actions w-full">
+                                                                      <button onclick="calculateRectangleArea()"
+                                                                                class="btn w-full btn-primary">Calculate</button>
+                                                            </div>
+                                                  </div>
+                                        </div>
+                                        <!-- third card -->
+                                        <div class="card w-96 bg-base-100 shadow-xl">
+                                                  <figure><img src="/images/triangle.png" alt="Shoes" /></figure>
+                                                  <div class="card-body">
                                                             <h2 class="card-title">triangle</h2>
                                                             <p>Area(A) = 0.5 x b x h</p>
                                                             <p>
@@ -36,34 +92,13 @@
                                                                                 name="" id="triangle-height">
                                                                       <span class="ml-2">cm</span>
                                                             </p>
-                                                            <p class="text-2xl">Area: <span class="bold" id="triangle-area">0</span> cm<sup>2</sup></p>
+                                                            <p class="text-2xl">Area: <span class="bold"
+                                                                                id="triangle-area">0</span>
+                                                                      cm<sup>2</sup></p>
 
                                                             <div class="card-actions w-full">
                                                                       <button onclick="calculateTriangleArea()"
                                                                                 class="btn w-full btn-primary">Calculate</button>
-                                                            </div>
-                                                  </div>
-                                        </div>
-                                        <!-- second card -->
-                                        <div class="card w-96 bg-base-100 shadow-xl">
-                                                  <figure><img src="/images/rectangle.png" alt="Shoes" /></figure>
-                                                  <div class="card-body">
-                                                            <h2 class="card-title">Shoes!</h2>
-                                                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                                                            <div class="card-actions justify-end">
-                                                                      <button class="btn btn-primary">Buy Now</button>
-                                                            </div>
-                                                  </div>
-                                        </div>
-                                        <!-- third card -->
-                                        <div class="card w-96 bg-base-100 shadow-xl">
-                                                  <figure><img src="/images/rectangle.png" alt="Shoes" /></figure>
-                                                  <div class="card-body">
-                                                            <h2 class="card-title">Shoes!</h2>
-                                                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                                                            <div class="card-actions justify-end">
-                                                                      <button onclick="calculateTriangleArea()"
-                                                                                class="btn btn-primary">Buy Now</button>
                                                             </div>
                                                   </div>
                                         </div>

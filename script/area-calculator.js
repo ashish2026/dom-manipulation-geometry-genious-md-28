@@ -16,6 +16,27 @@ function calculateTriangleArea() {
           console.log(area)
 
           // show triangle area
-          const areaSpan =document.getElementById('triangle-area');
+          const areaSpan = document.getElementById('triangle-area');
           areaSpan.innerText = area;
+}
+
+function calculateRectangleArea() {
+          // get rectangle width
+          const withField = document.getElementById('rectangle-width')
+          const widthValueText = withField.value
+          const width = parseFloat(widthValueText)
+          console.log(width)
+
+          // get rectangle length
+          const lengthField = document.getElementById('rectangle-length')
+          const lengthValueText = lengthField.value;
+          const length = parseFloat(lengthValueText)
+          console.log(length)
+
+          // calculate area
+          const area = width * length
+
+          // show rectangle area
+          const rectangleAreaSpan = document.getElementById('rectangle-area')
+          rectangleAreaSpan.innerText = area;
 }
