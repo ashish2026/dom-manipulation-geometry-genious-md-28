@@ -58,7 +58,7 @@
                                                                                 class="border text-xl w-24 px-2 bg-gray-200"
                                                                                 name="" id="rectangle-width">
                                                                       <span class="ml-2">cm</span>
-                                                                      <!-- rectangle length-->
+                                                                      <!-- rectangle height-->
                                                                       <input type="text" placeholder="length"
                                                                                 class="ml-4 text-xl border w-24 px-2 bg-gray-200"
                                                                                 name="" id="rectangle-length">
@@ -70,6 +70,34 @@
 
                                                             <div class="card-actions w-full">
                                                                       <button onclick="calculateRectangleArea()"
+                                                                                class="btn w-full btn-primary">Calculate</button>
+                                                            </div>
+                                                  </div>
+                                        </div>
+                                        <!-- parallelogram card -->
+                                        <div class="card w-96 bg-base-100 shadow-xl">
+                                                  <figure><img src="./images/parallelogram.png" alt="Shoes" /></figure>
+                                                  <div class="card-body">
+                                                            <h2 class="card-title">Parallelogram</h2>
+                                                            <p>Area(A) = w x l</p>
+                                                            <p>
+                                                                      <!-- parallelogram width -->
+                                                                      <input type="text" placeholder="base"
+                                                                                class="border text-xl w-24 px-2 bg-gray-200"
+                                                                                name="" id="parallelogram-base">
+                                                                      <span class="ml-2">cm</span>
+                                                                      <!-- parallelogram length-->
+                                                                      <input type="text" placeholder="height"
+                                                                                class="ml-4 text-xl border w-24 px-2 bg-gray-200"
+                                                                                name="" id="parallelogram-height">
+                                                                      <span class="ml-2">cm</span>
+                                                            </p>
+                                                            <p class="text-2xl">Area: <span class="bold"
+                                                                                id="parallelogram-area">0</span>
+                                                                      cm<sup>2</sup></p>
+
+                                                            <div class="card-actions w-full">
+                                                                      <button onclick="calculateParallelogramArea()"
                                                                                 class="btn w-full btn-primary">Calculate</button>
                                                             </div>
                                                   </div>
